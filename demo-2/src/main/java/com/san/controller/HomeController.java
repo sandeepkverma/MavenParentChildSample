@@ -11,4 +11,9 @@ public class HomeController {
 		
 		return "hello from demo2 application";
 	}
+	
+	@RequestMapping("/test")
+	public String test() {
+		return "test message form demo2 application";
+	}
 }
